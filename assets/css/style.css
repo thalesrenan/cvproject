@@ -414,6 +414,10 @@ img{
     margin-bottom: var(--mb-2-5);
 }
 
+/* .about__data{
+    display: grid;
+} */
+
 .about__info{
     display: flex;
     justify-content: space-evenly;
@@ -437,6 +441,7 @@ img{
 }
 
 .about__buttons{
+    padding-left: 6.25rem;
     display: inline-flex;
     justify-content: center;
 }
@@ -759,9 +764,9 @@ img{
     margin-bottom: var(--mb-0-75);
 }
 
-.portfolio__button:hover .button__icon{
+/* .portfolio__button:hover .button__icon{
     transform: translateX(.25rem);
-}
+} */
 
 .swiper-button-next::after,
 .swiper-button-prev::after{
@@ -994,6 +999,11 @@ img{
 
     .home__blob{
         width: 180px;
+    }
+
+    .about__buttons{
+        display: inline-flex;
+        justify-content: center;
     }
 
     .skills__title{
@@ -1275,5 +1285,10 @@ img{
 
     .contact__inputs{
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about__description{
+        text-align: center;
+        margin-bottom: var(--mb-2-5);
     }
 }
