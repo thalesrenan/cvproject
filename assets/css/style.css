@@ -516,36 +516,6 @@ img {
   background-color: var(--first-color);
 }
 
-.skills__html,
-.skills__css {
-  width: 90%;
-}
-
-.skills__js {
-  width: 80%;
-}
-
-.skills__react {
-  width: 75%;
-}
-
-.skills__python,
-.skills__nodejs {
-  width: 50%;
-}
-
-.skills__db {
-  width: 40%;
-}
-
-.skills__cpp {
-  width: 60%;
-}
-
-.skills__java {
-  width: 20%;
-}
-
 .skills__close .skills__list {
   height: 0;
   overflow: hidden;
