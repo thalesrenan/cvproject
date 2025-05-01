@@ -997,6 +997,14 @@ img {
   }
 }
 
+@media screen and (min-width:375px){
+  .about__buttons {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+  }
+}
+
 /* medium */
 @media screen and (min-width: 568px) {
   .home__content {
